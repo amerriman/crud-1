@@ -1,6 +1,7 @@
 var mongoose = require('mongoose');
 var Schema   = mongoose.Schema;
 
+//creates the penguin schema, defines what the 'Penguin' should look like in the database
 var Penguin = new Schema(
  {
    name: String,
